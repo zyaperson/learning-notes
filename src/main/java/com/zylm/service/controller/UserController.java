@@ -1,6 +1,7 @@
 package com.zylm.service.controller;
 
 import com.zylm.service.common.Response;
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import java.util.Map;
  * @Date 2023/11/2 15:44
  * @Version 1.0
  */
+@Api(tags = "UserController")
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {

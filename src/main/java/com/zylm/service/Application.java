@@ -16,6 +16,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        System.out.println("http://localhost:8081");
+        System.out.println("http://localhost:8081/zylm/swagger-ui.html");
+        System.out.println("http://localhost:8081/zylm/doc.html#/home");
     }
 }
